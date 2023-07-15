@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Todo List</title>
+  </head>
+  <body>
+   <script src="main.js" defer></script>
+
+   <div class="header">
+    <img class="logo" src="/img/logo.png" alt="">
+    <h1>Todo List</h1>
+   </div>
+
+   <div class="mainContainer">
+      <div class="navBar">
+        <div class="s-box inbox">
+            <img class="icon" src="/img/inbox.png" alt="">
+            <p class="btn">Inbox</p>
+        </div>
+
+        <div class="projects">
+            <h3>Projects</h3>
+            <div class="s-box add-project">
+              <img src="/img/add.png" alt="" class="icon">
+              <p class="btn">Add Project</p>
+            </div>
+        </div>
+
+        
+    </div>
+      <div class="container">
+          <p class="name">Inbox</p>
+          <div class="task-box">
+            
+          </div>
+        
+        
+
+        <div id="inputContainer" class="input-container">
+
+          <div class="cont">
+            <div class="s-box add-task" id="addTask">
+              <img src="/img/add.png" alt="" class="icon">
+              <p class="btn ">Add Task</p>
+            </div>
+
+            <div class="input-add-task hidden" id="inputAddTask">
+              <form id="myForm"  method="post">
+                <input id="input" type="text">
+                <div class="buttons">
+                  <button type="submit" id="submit">ADD</button>
+                  <button id="cancel">CANCEL</button>
+                </div>
+              </form>
+              
+          </div>
+          </div>
+        </div>
+      </div>
+
+      
+
+  </body>
+</html>
